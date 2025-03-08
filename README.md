@@ -1,12 +1,11 @@
-<h1>🌐 Saját Weboldalam</h1>
+# 🌐 **<span style="font-family: Arial, sans-serif;">Saját Weboldalam</span>**  
 
-<div style="
-    background-color: #f4f4f4; 
-    padding: 15px; 
-    border-radius: 10px; 
-    width: fit-content;
-">
-    <h2>📞 Kapcsolat</h2>
-    <p>📧 <strong>jojartmatyas@email.com</strong></p>
-</div>
+---
 
+🎨 *Üdvözöllek a személyes weboldalamon!*  
+
+## 📞 <span style="color: #3498db;">Kapcsolat</span>  
+📧 **<a href="mailto:jojartmatyas@email.com" style="color: #e74c3c;">jojartmatyas@email.com</a>**  
+
+---
+✨ *Köszönöm, hogy benéztél!* 🚀  
