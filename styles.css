@@ -1,0 +1,320 @@
+/* Alap stílusok */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    color: #e0e0e0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Konténer */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: #00FF88;
+    padding: 70px 0;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+    border-bottom: 2px solid #00FF88;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #a0a0a0;
+}
+
+/* Rólam szekció */
+#about {
+    margin: 50px 0;
+    
+}
+#aboutr {
+    background: #111;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
+    border: 1px solid rgba(0, 255, 136, 0.4);
+}
+
+
+#about h2, #projects h2, #contact-info h2 {
+    color: #00FF88;
+    font-size: 2.3rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #c0c0c0;
+}
+
+#about h2, #projects h2, #contact-info h2 {
+    color: #00FF88;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#about p {
+    font-size: 1.1rem;
+    color: #c0c0c0;
+}
+
+
+/* Elkészült projektek szekció */
+#projects {
+    margin: 50px 0;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+
+}
+
+.project-item {
+    background: #111;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
+    border: 1px solid rgba(0, 255, 136, 0.4);
+}
+
+.project-item h3 {
+    color: #00FF88;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+
+.project-link {
+    background-color: #00FF88;
+    color: #ffffff;
+    padding: 14px 26px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
+    background: #111;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
+    border: 1px solid rgba(0, 255, 136, 0.4);
+    width: auto;
+}
+
+.project-link:hover {
+    background-color: #00cc66;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+}
+
+.project-link i {
+    margin-right: 10px;
+}
+
+
+/* Elérhetőségek szekció */
+#contact-info {
+    margin: 50px 0;
+}
+#contact-info h2 {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-button {
+    background: #181818;
+    color: #e0e0e0;
+    padding: 16px 32px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px rgba(0, 255, 136, 0.2);
+    border: 1px solid rgba(0, 255, 136, 0.3);
+}
+
+.contact-button:hover {
+    background: #00FF88;
+    color: #0a0a0a;
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.6);
+}
+
+.contact-button i {
+    font-size: 1.5rem;
+    margin-right: 12px;
+}
+
+.contact-button span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #a0a0a0;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 -4px 8px rgba(0, 255, 136, 0.3);
+    border-top: 2px solid #00FF88;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+/* Reszponzív stílusok */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #about h2,
+    #projects h2,
+    #contact-info h2 {
+        font-size: 1.8rem;
+    }
+
+    #about p,
+    .project-item p {
+        font-size: 0.95rem;
+    }
+
+    .contact-button,
+    .project-link {
+        padding: 10px 20px;
+    }
+
+    .contact-button i,
+    .project-link i {
+        font-size: 1.2rem;
+    }
+
+    .contact-button span,
+    .project-link span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 40px 0;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    #about h2,
+    #projects h2,
+    #contact-info h2 {
+        font-size: 1.6rem;
+    }
+
+    #about p,
+    .project-item p {
+        font-size: 0.9rem;
+    }
+
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-button,
+    .project-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* iPhone 14 Pro Max specifikus reszponzivitás */
+@media (max-width: 430px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    header p {
+        font-size: 0.85rem;
+    }
+
+    #about h2,
+    #projects h2,
+    #contact-info h2 {
+        font-size: 1.5rem;
+    }
+
+    #about p,
+    .project-item p {
+        font-size: 0.85rem;
+    }
+
+    .project-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .project-link,
+    .contact-button {
+        padding: 8px 16px;
+        width: auto;
+    }
+
+    .project-link i,
+    .contact-button i {
+        font-size: 1rem;
+    }
+
+    .project-link span,
+    .contact-button span {
+        font-size: 0.9rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Jójárt Mátyás</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Jójárt Mátyás</h1>
+            <p>Haladó webfejlesztő, aki modern és reszponzív weboldalakat készít.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Rólam</h2>
+            <section id="aboutr">
+            <p>Webfejlesztőként a minőségi, gyors és reszponzív weboldalak készítésére törekszem. Célom, hogy modern technológiákat alkalmazva egyedi és felhasználóbarát megoldásokat hozzak létre, amelyek tökéletesen illeszkednek az üzleti és egyéni igényekhez</p></section>
+        </section>
+
+        <section id="projects">
+            <h2>Elkészült projektek</h2>
+            <div class="project-list">
+                    <a href="https://jojartsandor.hu/" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span style="text-align: center;">jojartsandor.hu</span>
+                    </a>
+            </div>
+        </section>
+
+        <section id="contact-info">
+            <h2>Elérhetőségek</h2>
+            <div class="contact-links">
+                <a href="mailto:email@example.com" class="contact-button">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-button">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
